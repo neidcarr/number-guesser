@@ -4,7 +4,7 @@ let currentRoundNumber = 1;
 
 // Write your code below:
 
-const generateTarget = () => Math.ceil(Math.random * 10);
+const generateTarget = () => Math.ceil(Math.random() * 10);
 
 const compareGuesses = (human, computer, target) => {
     let diffHumanTarget = target - human; 
